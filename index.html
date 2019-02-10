@@ -4,48 +4,70 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/....">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+    <link rel="shortcut icon" href="img/head-logo.png">
     <title>Flor Dutari</title>
 </head>
 <body>
     <header>
         <nav>
-            <button>HOME</button>
-            <ul>
-                <li><a href="#About">About me</a></li>
-                <li><a href="#Interest">Interested in</a></li>
-                <li><a href="#Projects">My projects</a></li>
-                <li><a href="#Contact">Contact me</a></li>
+            <button class="go-home">HOME</button>
+            <ul class="nav-bar">
+                <li><a class="nav-bar" href="#about">About</a></li>
+                <li class="nav-bar">/</li>
+                <li><a class="nav-bar" href="#interest">Interested in</a></li>
+                <li class="nav-bar">/</li>
+                <li><a class="nav-bar" href="#projects">My projects</a></li>
+                <li class="nav-bar">/</li>
+                <li><a class="nav-bar" href="#contact">Contact me</a></li>
             </ul>
         </nav>
         <div>
-            <h1>Flor</h1>
+            <h1>Hi there!</h1> 
+            <p>I'm Flor Dutari, a full-stack web development student</p>
         </div>
     </header>
     <main>
-        <section id="About">
+        <section id="about">
             <div>
-                <h3>About me</h3>
-                <img src="img/myphoto.jpg" alt="my photo">
+                <h3>About</h3>
             </div>
+            <img src="img/myphotoround.png" alt="my photo">
             <article>
-                <p>Mi nombre es Florencia, de Argentina, actualmente viviendo en Barcelona. Soy arquitecta aunque recientemente he decidido da un giro a mi carrera profesional, convirtiendome en estudiante de web developement.</p>
-                <p>Es mi prioridad desarrollar los proyectos que se presenten a lo largo del curso con mucha motivacion, y con ganas de aprender tanto de teachers, TAs, como asi tambien de mis compañeros</p>
+                <h4>Little things that defines me</h4>
+                <!-- <p>Raised Argentina but based in Barcelona since 2015. As an architect I'm trying to make a switch in professional career, focusing my change in web development.</p>
+                <p>It is my priority to develop the projects that are presented throughout the course with a lot of motivation, and with the desire to learn from teachers, TAs, as well as from my classmates.</p> -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue orci, vulputate vitae elit ut, tincidunt vestibulum metus. Pellentesque iaculis luctus sem in posuere. Aliquam nec felis pharetra nunc dictum tincidunt. Nullam imperdiet eros eros, ac blandit purus vulputate id. Praesent eu vestibulum magna, quis accumsan enim. In iaculis leo tellus, et hendrerit diam faucibus non. Phasellus at auctor ipsum, quis blandit odio. Nullam hendrerit sagittis justo, ut pretium sem maximus id. Nulla convallis ullamcorper pulvinar. Vivamus lorem elit, cursus sed imperdiet vel, ornare vitae erat. Phasellus vehicula lectus vitae faucibus placerat. Suspendisse rhoncus, urna ac congue laoreet, nulla orci blandit lacus, vel hendrerit ligula libero et purus. Proin interdum diam nec luctus commodo. Maecenas sit amet eros metus. Maecenas pellentesque ut magna nec lobortis.</p>
             </article>
         </section>
-        <section id="Interest">
+        <section id="interest">
             <div>
                 <h3>Interested in</h3>
             </div>
-            <div>
-                <ul>
-                    <li>Tecnologia <img src="img/tech.png" alt="Tech" width="100px" height="100px"></li>
-                    <li>Arquitectura <img src="img/arch.png" alt="Arch" width="100px" height="100px"></li>
-                    <li>Diseño grafico <img src="img/design.jpg" alt="Design" width="100px" height="100px"></li>
-                </ul>
-            </div>
+            <article>
+                <h4>Technology</h4>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis sapien, tempor non semper vitae, mollis quis ex. Sed luctus tortor in efficitur scelerisque. Cras suscipit sit amet odio in hendrerit. Proin ligula felis, auctor et tellus tincidunt, porta blandit.</p> -->
+                <h4>Development</h4>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis sapien, tempor non semper vitae, mollis quis ex. Sed luctus tortor in efficitur scelerisque. Cras suscipit sit amet odio in hendrerit. Proin ligula felis, auctor et tellus tincidunt, porta blandit.</p> -->
+                <h4>Graphic design</h4>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis sapien, tempor non semper vitae, mollis quis ex. Sed luctus tortor in efficitur scelerisque. Cras suscipit sit amet odio in hendrerit. Proin ligula felis, auctor et tellus tincidunt, porta blandit.</p> -->
+                <h4>Architecture</h4>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis sapien, tempor non semper vitae, mollis quis ex. Sed luctus tortor in efficitur scelerisque. Cras suscipit sit amet odio in hendrerit. Proin ligula felis, auctor et tellus tincidunt, porta blandit.</p> -->
+                
+                <!--<ul>
+                    <li>Technology</li>
+                    <li>/</li>
+                    <li>Development</li>
+                    <li>/</li>
+                    <li>Graphic design</li>
+                    <li>/</li>
+                    <li>Architecture</li>
+                </ul> -->
+            </article>
         </section>
-        <section id="Projects">
+        <section id="projects">
             <div>
                 <h3>My projects</h3>
             </div>
@@ -56,17 +78,18 @@
                 <li><a href="https://github.com/flord2/Mars-rover-kata">Mars kata rover</a></li>
             </ul>
         </section>
-        <section id="Contact">
+        <section id="contact">
             <h3>Contact me</h3>
-                <form id="contact" action="" method="post">
+                <p>Please leave your message after the bip</p>
+                <form id="contact-form" action="js/main.js" method="post">
                     <fieldset>
-                        <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+                        <input placeholder="Name" type="text" tabindex="1" required autofocus>
                     </fieldset>
                     <fieldset>
-                        <input placeholder="Tu email" type="email" tabindex="2" required>
+                        <input placeholder="Your email" type="email" tabindex="2" required>
                     </fieldset>
                     <fieldset>
-                    <textarea placeholder="Escribe tu texto aqui...." tabindex="5" required></textarea>
+                    <textarea placeholder="Write your text here..." tabindex="5" required></textarea>
                     </fieldset>
                     <fieldset>
                     <button name="submit" type="submit" id="contact-submit">ENVIAR</button>
@@ -76,11 +99,14 @@
     </main>
     <footer>
         <ul>
-            <li><a href="https://twitter.com/?lang=es"><img src="img/twitter.png" alt="Twitter" width="50px"></a></li>
-            <li><a href="https://www.facebook.com/"><img src="img/facebok.png" alt="Facebook" width="50px"></a></li>
-            <li><a href="https://www.linkedin.com/in/florencia-dutari/"><img src="img/linkedin-button.png" alt="Linkedin" width="50px"></a></li>
-            <li><a href="https://github.com/flord2"><img src="img/github-logo.png" alt="Github" width="50px"></a></li>
+            <li><a href="https://twitter.com/?lang=es"><img src="img/twitter-white.png" alt="Twitter" width="50px"></a></li>
+            <li><a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook" width="50px"></a></li>
+            <li><a href="https://www.linkedin.com/in/florencia-dutari/"><img src="img/linkedin-button-white.png" alt="Linkedin" width="50px"></a></li>
+            <li><a href="https://github.com/flord2"><img src="img/github-logo-white.png" alt="Github" width="50px"></a></li>
         </ul>
+        <p>fdutari2@gmail.com</p>
+        <p>Tel. 665174459</p>
+        <p>Barcelona, Spain</p>
         <p>© 2019 Florencia Dutari</p>
     </footer>
 </body>
