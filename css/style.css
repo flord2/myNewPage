@@ -81,19 +81,21 @@ h1 {
     margin: 0;
     text-align: end;
     text-transform: uppercase;
+    line-height: 40px;
 }
 
 h3 {
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 40px;
   text-transform: uppercase;
   margin: 0;
+  font-stretch: condensed;
 }
 
 div > p {
   font-size: 30px;
   line-height: 16px;
-  margin-bottom: 75px;
+  margin: 15px 0 75px 0;
   text-align: end;
   font-family: 'Reenie Beanie', cursive;
 }
@@ -138,7 +140,7 @@ div > p {
 }
 
 #about p {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-weight: lighter;
   text-align: justify;
 }
@@ -242,7 +244,7 @@ fieldset > input , textarea {
 }
 
 textarea {
-  height: 400px;
+  height: 300px;
   max-width: 100%;
   min-height: 200px;
   max-height: 600px;
@@ -256,7 +258,7 @@ fieldset:last-child{
   background-color: #000;
   color: #fff;
   margin-top: 25px;
-  height: 60px;
+  height: 40px;
   align-content: space-between;
 }
 
